@@ -1,0 +1,22 @@
+{
+  "version": "2",
+  "remote": {
+    "https://deno.land/std@0.166.0/fmt/colors.ts": "9e36a716611dcd2e4865adea9c4bec916b5c60caad4cdcdc630d4974e6bb8bd4",
+    "https://deno.land/std@0.166.0/testing/_diff.ts": "a23e7fc2b4d8daa3e158fa06856bedf5334ce2a2831e8bf9e509717f455adb2c",
+    "https://deno.land/std@0.166.0/testing/_format.ts": "cd11136e1797791045e639e9f0f4640d5b4166148796cad37e6ef75f7d7f3832",
+    "https://deno.land/std@0.166.0/testing/asserts.ts": "1e340c589853e82e0807629ba31a43c84ebdcdeca910c4a9705715dfdb0f5ce8"
+  },
+  "npm": {
+    "specifiers": { "solid-js@^1.6.2": "solid-js@1.6.2" },
+    "packages": {
+      "csstype@3.1.1": {
+        "integrity": "sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==",
+        "dependencies": {}
+      },
+      "solid-js@1.6.2": {
+        "integrity": "sha512-AZBsj+Yn1xliniTTeuQKG9V7VQVkQ8lZmSKvBjpcVSoZeF7nvt/N5f7Kcsx6QSufioa2YgvBjkIiA0cM0qhotw==",
+        "dependencies": { "csstype": "csstype@3.1.1" }
+      }
+    }
+  }
+}
