@@ -17,7 +17,7 @@ typescript 4.8.3
 - creation an `import_map.json` file containing `npm` module dependency
 - run Deno to produce a `deno.lock` file, i.e. w/ `deno test`
 
-I assume that `npm` module imports shall be resolved after that specs but they
+I assume that `npm` module imports shall be resolved after that spets but they
 are not.
 
 ```ts
